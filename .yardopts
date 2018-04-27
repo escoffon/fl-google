@@ -1,0 +1,2 @@
+--protected --output-dir doc/out/yard --markup rdoc --readme doc/README.yard \
+    lib/fl/google.rb lib/fl/google/\*\*/\*.rb
