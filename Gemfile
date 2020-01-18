@@ -1,8 +1,7 @@
 # -*-ruby-*-
 
 source 'https://rubygems.org'
-
-ruby '2.4.0'
+git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 # Declare your gem's dependencies in fl-framework.gemspec.
 # Bundler will treat runtime dependencies like base dependencies, and

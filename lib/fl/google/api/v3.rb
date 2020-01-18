@@ -6,3 +6,6 @@ module Fl::Google::API
 end
 
 require 'fl/google/api/v3/base'
+require 'fl/google/api/v3/calendar'
+require 'fl/google/api/v3/maps'
+require 'fl/google/api/v3/you_tube'

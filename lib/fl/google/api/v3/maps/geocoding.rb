@@ -3,7 +3,7 @@ require 'uri'
 require 'fl/google/api/v3'
 require 'fl/google/api/maps'
 
-module Fl::Google::API::Maps
+module Fl::Google::API::V3::Maps
   # Google Maps geocoding API
 
   class Geocoding < Fl::Google::API::V3::Base
