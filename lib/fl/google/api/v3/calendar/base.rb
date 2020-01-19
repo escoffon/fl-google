@@ -23,9 +23,9 @@ module Fl::Google::API::V3::Calendar
                   :timeMax, :updatedMin ]
 
     # Filter and otherwise process a query string.
-    # This method removes the following keys if @c :syncToken or @a :pageToken are present:
-    # @c :iCalUID, @c :orderBy, @c :privateExtendedProperty, @c :q, @c :sharedExtendedProperty, @c :timeMin,
-    # @c :timeMax, and @c :updatedMin
+    # This method removes the following keys if `:syncToken` or `:pageToken` are present:
+    # `:iCalUID`, `:orderBy`, `:privateExtendedProperty`, `:q`, `:sharedExtendedProperty`, `:timeMin`,
+    # `:timeMax`, and `:updatedMin`.
     #
     # This method is called by the method that generates the query string.
     # The default implementation simply returns @a query: no processing is done.

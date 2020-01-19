@@ -41,7 +41,7 @@ module Fl::Google::API::V3
     #
     # @note The following configuration options are mandatory: :root_url.
     #
-    # @throws RuntimeError Thrown if a mandatory configuration option is not present.
+    # @raise [RuntimeError] Raised if a mandatory configuration option is not present.
 
     def initialize(config = {})
       @config = {

@@ -16,7 +16,7 @@ module Fl::Google::API::V3::YouTube
     #
     # @param user_id The user ID. If @c nil or the empty string, use the authenticated user; in this case,
     #  you must have provided an access token in @a config.
-    # @query Query string parameters. The :part parameter can be an array of symbols specifying the
+    # @param query Query string parameters. The :part parameter can be an array of symbols specifying the
     #  :part values; these will be converted into a comma-separated string. Default value for :part
     #  is :contentDetails. Similarly for the :fields parameter.
     #

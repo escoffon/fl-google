@@ -16,7 +16,7 @@ module Fl::Google::API::V3::YouTube
     #
     # @param video_id The video identifier, or an array of video identifiers; this will be placed in the
     #  query string as the :id parameter.
-    # @query Query string parameters. The :part parameter can be an array of symbols specifying the
+    # @param query Query string parameters. The :part parameter can be an array of symbols specifying the
     #  :part values; these will be converted into a comma-separated string. Default value for :part
     #  is :contentDetails. Similarly for the :fields parameter.
     #
