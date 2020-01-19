@@ -10,4 +10,3 @@ end
 require 'fl/google/recaptcha'
 
 require 'fl/google/api'
-require 'fl/google/api/maps/geocoding'
